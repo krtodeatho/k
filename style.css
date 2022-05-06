@@ -15,15 +15,19 @@ html {
 ::-webkit-scrollbar {
   width: 10px;
 }
+::selection {
+  color: #fff;
+  background-color: #009B77;
+  }  
 ::-webkit-scrollbar-track {
-  background: #17dbdb;
+  background: #009B77;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(202, 43, 43);
+  background: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(224, 243, 55);
+  background: #008B7E;
 }
 
 /* all similar content styling codes */
@@ -93,7 +97,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: coral;
+  background: #009B77;
 }
 .navbar .max-width {
   display: flex;
@@ -169,9 +173,9 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url(https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80) no-repeat center;
+  background: url(./IMG/2020-09-25\ 2.03.01\ pm.jpg) no-repeat center;
   height: 100vh;
-  color: #fff;
+  color: rgb(255, 255, 255);
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -219,7 +223,7 @@ section .title::after {
 
 /* about me section styling */
 .about .title::after {
-  content: "who i am";
+  content: "who  am i";
 }
 .about .about-content .left {
   width: 45%;
@@ -228,7 +232,7 @@ section .title::after {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 .about .about-content .right {
   width: 55%;
@@ -304,7 +308,7 @@ section .title::after {
   font-size: 18px;
 }
 .skills .skills-content .right .line {
-  height: 5px;
+  height: 4px;
   width: 100%;
   background: lightgrey;
   position: relative;
